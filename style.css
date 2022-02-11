@@ -73,12 +73,38 @@ a:hover{
 }
 
 .title{
-  font-size: 20px; 
+   
   letter-spacing: 1px; 
   font-weight: 700;
   border-bottom: 1px solid black;
 }
 
+.col{
+  display:flex;
+  flex-direction:column;
+  padding: 15px;
+}
+
+
+.icon-box{
+  font-size: 24px;
+}
+
+.icon-box:hover{
+  text-decoration:none;
+
+
+}
+
+.footer-lastline{
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid grey;
+
+}
+
+  
 @media screen and (max-width:100rem) {
   img{
     width:100%;
